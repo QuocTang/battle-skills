@@ -1,0 +1,67 @@
+{
+  "generated_at": "2026-03-01T06:46:34.434369+00:00",
+  "total": 4,
+  "skills": [
+    {
+      "name": "academic-thesis-writer-vi",
+      "description": "\"Kỹ năng viết tiểu luận / luận văn bậc thạc sĩ bằng tiếng Việt theo phong cách học thuật chuyên nghiệp. Bao gồm cấu trúc chương, giọng văn trang trọng, trích dẫn IEEE, song ngữ Việt-Anh cho thuật ngữ kỹ thuật, và các quy tắc trình bày chuẩn.\"",
+      "tags": [],
+      "tools": [],
+      "version": "",
+      "author": "",
+      "path": "skills/academic-thesis-writer-vi",
+      "lines": 360,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "awesome-readme",
+      "description": "\"When the user wants an 'Awesome' style README.md with advanced sections like Table of Contents, Support, Contributors via contrib.rocks, License, and Star History chart. Use when asked for 'awesome readme' or 'professional github readme'.\"",
+      "tags": [],
+      "tools": [],
+      "version": "",
+      "author": "",
+      "path": "skills/awesome-readme",
+      "lines": 107,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "create-skill",
+      "description": "Guide for creating a new Battle Skill from scratch. Use this skill whenever you want to add a new skill to this repository — whether it's capturing a workflow, documenting a pattern, or turning a battle-tested technique into a reusable skill. Triggers on phrases like \"create a skill\", \"add a skill\", \"new skill\", \"turn this into a skill\", \"document this workflow\".",
+      "tags": [
+        "meta",
+        "workflow",
+        "documentation"
+      ],
+      "tools": [
+        "claude-code",
+        "cursor",
+        "gemini-cli",
+        "codex-cli"
+      ],
+      "version": "1.0.0",
+      "author": "",
+      "path": "skills/create-skill",
+      "lines": 274,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "nextjs-feature-module",
+      "description": "\"When the user wants to create a new feature module in a Next.js App Router project following the standardized layered architecture (IO / Logic / UI separation). Use when user says 'create feature', 'add module', 'new tool', 'scaffold feature', or asks 'how to add a new page/feature' in a Next.js project.\"",
+      "tags": [],
+      "tools": [],
+      "version": "",
+      "author": "",
+      "path": "skills/nextjs-feature-module",
+      "lines": 430,
+      "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    }
+  ]
+}
