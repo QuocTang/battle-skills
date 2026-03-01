@@ -1,0 +1,29 @@
+{
+    "name": "battle-skills",
+    "version": "1.0.0",
+    "description": "Personal collection of battle-tested agentic skills for Claude Code, Cursor, Gemini CLI, Codex CLI, Antigravity and more.",
+    "license": "MIT",
+    "scripts": {
+        "validate": "python3 scripts/validate_skills.py",
+        "catalog": "python3 scripts/gen_catalog.py",
+        "build": "npm run validate && npm run catalog"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/QuocTang/battle-skills.git"
+    },
+    "bin": {
+        "battle-skills": "bin/install.js"
+    },
+    "files": [
+        "bin"
+    ],
+    "keywords": [
+        "claude-code",
+        "cursor",
+        "gemini-cli",
+        "antigravity",
+        "agentic-skills",
+        "ai-coding"
+    ]
+}
