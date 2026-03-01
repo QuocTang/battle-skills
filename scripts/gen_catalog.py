@@ -86,7 +86,6 @@ def parse_skills() -> list[dict]:
 
 def write_index(skills: list[dict]) -> None:
     index = {
-        "generated_at": datetime.now(timezone.utc).isoformat(),
         "total":        len(skills),
         "skills":       skills,
     }

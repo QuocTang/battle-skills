@@ -25,7 +25,7 @@ REPO_ROOT   = Path(__file__).parent.parent
 SKILLS_DIR  = REPO_ROOT / "skills"
 
 REQUIRED_FRONTMATTER = ["name", "description"]
-OPTIONAL_FRONTMATTER = ["tags", "tools", "version", "author"]
+OPTIONAL_FRONTMATTER = ["tags", "tools", "version", "author", "category", "risk", "source", "date_added"]
 
 MAX_SKILL_MD_LINES   = 500   # warn if SKILL.md exceeds this
 MIN_DESCRIPTION_WORDS = 10   # warn if description is too terse
