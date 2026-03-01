@@ -152,11 +152,12 @@ function installSkillsIntoTarget(tempDir, target) {
     const dest = path.join(target, name);
     copyRecursiveSync(src, dest);
   });
-  const repoDocs = path.join(tempDir, "docs");
-  if (fs.existsSync(repoDocs)) {
-    const docsDest = path.join(target, "docs");
-    if (!fs.existsSync(docsDest)) fs.mkdirSync(docsDest, { recursive: true });
-    copyRecursiveSync(repoDocs, docsDest);
+
+  // Copy skills_index.json for quick discovery
+  const indexSrc = path.join(tempDir, "skills_index.json");
+  const indexDest = path.join(target, "skills_index.json");
+  if (fs.existsSync(indexSrc)) {
+    fs.copyFileSync(indexSrc, indexDest);
   }
 }
 
