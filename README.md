@@ -37,6 +37,19 @@ These are **real skills from real projects** — not theoretical patterns. Each 
 
 ## 🛠️ Installation
 
+**💡 Recommended: Use the CLI Installer**
+
+```bash
+# Install directly to your favorite AI Assistant
+npx battle-skills --cursor       # For Cursor
+npx battle-skills --claude       # For Claude Code
+npx battle-skills --gemini       # For Gemini CLI
+npx battle-skills --antigravity  # For Antigravity
+npx battle-skills --path ./battle-skills   # Custom path (.agent/skills)
+```
+
+**Alternative: Manual Git Clone**
+
 | Tool            | Install Command                                                          |
 | --------------- | ------------------------------------------------------------------------ |
 | **Claude Code** | `git clone https://github.com/QuocTang/battle-skills.git .claude/skills` |
@@ -44,7 +57,7 @@ These are **real skills from real projects** — not theoretical patterns. Each 
 | **Gemini CLI**  | `git clone https://github.com/QuocTang/battle-skills.git .gemini/skills` |
 | **Universal**   | `git clone https://github.com/QuocTang/battle-skills.git .agent/skills`  |
 
-**To update:** `git -C <your_tool_folder>/skills pull`
+**To update:** Rerun the `npx` command or `git -C <your_tool_folder>/skills pull`
 
 ---
 
