@@ -16,7 +16,13 @@
         "battle-skills": "bin/install.js"
     },
     "files": [
-        "bin"
+        "bin",
+        "skills",
+        "docs",
+        "README.md",
+        "LICENSE",
+        "CATALOG.md",
+        "skills_index.json"
     ],
     "keywords": [
         "claude-code",
