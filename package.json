@@ -1,6 +1,6 @@
 {
     "name": "battle-skills",
-    "version": "1.0.3",
+    "version": "1.0.4",
     "description": "Personal collection of battle-tested agentic skills for Claude Code, Cursor, Gemini CLI, Codex CLI, Antigravity and more.",
     "license": "MIT",
     "scripts": {
