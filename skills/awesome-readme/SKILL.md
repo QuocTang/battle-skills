@@ -23,7 +23,9 @@ An awesome README must have the following exact sections with Emojis:
 
 ### 1. Title and Badges & Intro
 
-Start with an Emoji + Header 1. Followed by a catchy description line. You can optionally include badges (CI/CD, Version, License) here.
+Start with an Emoji + Header 1. Followed by a catchy description line. You can optionally include badges (CI/CD, Version, License) here. 
+For badges, use this standard format:
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ### 2. Table of Contents
 
