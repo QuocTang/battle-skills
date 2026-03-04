@@ -2,7 +2,7 @@
 
 > Auto-generated on 2026-03-04. Do not edit manually — run `python3 scripts/gen_catalog.py`.
 
-**Total skills: 5**
+**Total skills: 6**
 
 | Skill | Description | Tags | Tools |
 |-------|-------------|------|-------|
@@ -11,6 +11,7 @@
 | [code-explainer](skills/code-explainer/SKILL.md) | | Explain and analyze source code in detail for learning purposes. Automatically detects f… | documentation, learning, code-analysis, education | claude-code, cursor, gemini-cli, codex-cli |
 | [create-skill](skills/create-skill/SKILL.md) | Guide for creating a new Battle Skill from scratch. Use this skill whenever you want to ad… | meta, workflow, documentation | claude-code, cursor, gemini-cli, codex-cli |
 | [nextjs-feature-module](skills/nextjs-feature-module/SKILL.md) | "When the user wants to create a new feature module in a Next.js App Router project follow… | nextjs, architecture, scaffold, react | claude-code, cursor, gemini-cli |
+| [publish-skill](skills/publish-skill/SKILL.md) | | End-to-end release pipeline for Battle Skills — from validation to npm publish. Use this… | meta, workflow, ci, npm, publish | claude-code, cursor, gemini-cli, codex-cli, antigravity |
 
 ---
 
