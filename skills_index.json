@@ -1,15 +1,24 @@
 {
-  "total": 4,
+  "total": 5,
   "skills": [
     {
       "name": "academic-thesis-writer-vi",
       "description": "\"Kỹ năng viết tiểu luận / luận văn bậc thạc sĩ bằng tiếng Việt theo phong cách học thuật chuyên nghiệp. Bao gồm cấu trúc chương, giọng văn trang trọng, trích dẫn IEEE, song ngữ Việt-Anh cho thuật ngữ kỹ thuật, và các quy tắc trình bày chuẩn.\"",
-      "tags": [],
-      "tools": [],
-      "version": "",
+      "tags": [
+        "academic",
+        "writing",
+        "vietnamese",
+        "thesis"
+      ],
+      "tools": [
+        "claude-code",
+        "cursor",
+        "gemini-cli"
+      ],
+      "version": "1.0.0",
       "author": "",
       "path": "skills/academic-thesis-writer-vi",
-      "lines": 360,
+      "lines": 363,
       "has_references": false,
       "has_scripts": false,
       "has_assets": false
@@ -17,13 +26,44 @@
     {
       "name": "awesome-readme",
       "description": "\"When the user wants an 'Awesome' style README.md with advanced sections like Table of Contents, Support, Contributors via contrib.rocks, License, and Star History chart. Use when asked for 'awesome readme' or 'professional github readme'.\"",
-      "tags": [],
-      "tools": [],
-      "version": "",
+      "tags": [
+        "readme",
+        "documentation",
+        "github"
+      ],
+      "tools": [
+        "claude-code",
+        "cursor",
+        "gemini-cli"
+      ],
+      "version": "1.0.0",
       "author": "",
       "path": "skills/awesome-readme",
-      "lines": 107,
+      "lines": 112,
       "has_references": false,
+      "has_scripts": false,
+      "has_assets": false
+    },
+    {
+      "name": "code-explainer",
+      "description": "| Explain and analyze source code in detail for learning purposes. Automatically detects foundational knowledge required and creates prerequisite docs before explaining code. Use when the user asks to \"explain this code\", \"analyze code\", \"document code for learning\", \"create code walkthrough\", \"break down this script\", \"I don't understand this code\", or \"teach me this codebase\".",
+      "tags": [
+        "documentation",
+        "learning",
+        "code-analysis",
+        "education"
+      ],
+      "tools": [
+        "claude-code",
+        "cursor",
+        "gemini-cli",
+        "codex-cli"
+      ],
+      "version": "1.0.0",
+      "author": "",
+      "path": "skills/code-explainer",
+      "lines": 271,
+      "has_references": true,
       "has_scripts": false,
       "has_assets": false
     },
@@ -44,7 +84,7 @@
       "version": "1.0.0",
       "author": "",
       "path": "skills/create-skill",
-      "lines": 274,
+      "lines": 281,
       "has_references": false,
       "has_scripts": false,
       "has_assets": false
@@ -52,12 +92,21 @@
     {
       "name": "nextjs-feature-module",
       "description": "\"When the user wants to create a new feature module in a Next.js App Router project following the standardized layered architecture (IO / Logic / UI separation). Use when user says 'create feature', 'add module', 'new tool', 'scaffold feature', or asks 'how to add a new page/feature' in a Next.js project.\"",
-      "tags": [],
-      "tools": [],
-      "version": "",
+      "tags": [
+        "nextjs",
+        "architecture",
+        "scaffold",
+        "react"
+      ],
+      "tools": [
+        "claude-code",
+        "cursor",
+        "gemini-cli"
+      ],
+      "version": "1.0.0",
       "author": "",
       "path": "skills/nextjs-feature-module",
-      "lines": 430,
+      "lines": 433,
       "has_references": false,
       "has_scripts": false,
       "has_assets": false

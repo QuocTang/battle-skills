@@ -44,10 +44,14 @@ def parse_frontmatter(text: str) -> tuple[dict, str]:
         if len(parts) >= 3:
             raw_fm = parts[1].strip()
             body   = parts[2].strip()
+            current_key = None
             for line in raw_fm.splitlines():
-                if ":" in line:
+                if ":" in line and not line.startswith((" ", "\t")):
                     key, _, val = line.partition(":")
-                    fm[key.strip()] = val.strip()
+                    current_key = key.strip()
+                    fm[current_key] = val.strip()
+                elif current_key and line.startswith((" ", "\t")):
+                    fm[current_key] += (" " if fm[current_key] else "") + line.strip()
     return fm, body
 
 

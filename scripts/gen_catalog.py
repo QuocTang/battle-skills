@@ -31,16 +31,21 @@ def parse_frontmatter(text: str) -> dict:
     if text.startswith("---"):
         parts = text.split("---", 2)
         if len(parts) >= 3:
+            current_key = None
             for line in parts[1].strip().splitlines():
-                if ":" in line:
+                if ":" in line and not line.startswith((" ", "\t")):
                     key, _, val = line.partition(":")
+                    current_key = key.strip()
                     raw = val.strip()
                     # parse list fields
                     if raw.startswith("["):
                         items = [i.strip().strip("'\"") for i in raw.strip("[]").split(",") if i.strip()]
-                        fm[key.strip()] = items
+                        fm[current_key] = items
                     else:
-                        fm[key.strip()] = raw
+                        fm[current_key] = raw
+                elif current_key and line.startswith((" ", "\t")):
+                    if isinstance(fm.get(current_key), str):
+                        fm[current_key] += (" " if fm[current_key] else "") + line.strip()
     return fm
 
 
