@@ -1,7 +1,10 @@
 ---
 name: nextjs-feature-module
 description: "When the user wants to create a new feature module in a Next.js App Router project following the standardized layered architecture (IO / Logic / UI separation). Use when user says 'create feature', 'add module', 'new tool', 'scaffold feature', or asks 'how to add a new page/feature' in a Next.js project."
-risk: safe
+tags: [nextjs, architecture, scaffold, react]
+tools: [claude-code, cursor, gemini-cli]
+version: 1.0.0
+risk: low
 date_added: "2026-03-01"
 ---
 

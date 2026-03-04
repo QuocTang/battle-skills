@@ -1,8 +1,11 @@
 ---
 name: academic-thesis-writer-vi
 description: "Kỹ năng viết tiểu luận / luận văn bậc thạc sĩ bằng tiếng Việt theo phong cách học thuật chuyên nghiệp. Bao gồm cấu trúc chương, giọng văn trang trọng, trích dẫn IEEE, song ngữ Việt-Anh cho thuật ngữ kỹ thuật, và các quy tắc trình bày chuẩn."
+tags: [academic, writing, vietnamese, thesis]
+tools: [claude-code, cursor, gemini-cli]
+version: 1.0.0
 category: academic-writing
-risk: safe
+risk: low
 source: personal
 date_added: "2026-02-28"
 ---

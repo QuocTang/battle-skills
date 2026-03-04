@@ -1,7 +1,10 @@
 ---
 name: awesome-readme
 description: "When the user wants an 'Awesome' style README.md with advanced sections like Table of Contents, Support, Contributors via contrib.rocks, License, and Star History chart. Use when asked for 'awesome readme' or 'professional github readme'."
-risk: safe
+tags: [readme, documentation, github]
+tools: [claude-code, cursor, gemini-cli]
+version: 1.0.0
+risk: low
 date_added: "2026-03-01"
 ---
 
