@@ -54,17 +54,24 @@ name: your-skill-name          # must match folder name exactly
 description: |                 # THIS IS THE MOST IMPORTANT FIELD.
   What the skill does and      # Claude uses this to decide when to trigger the skill.
   when to use it. Be specific  # Include user phrases that should trigger it.
-  and slightly "pushy".        # Aim for 2-4 sentences, 20-50 words.
+  and slightly "pushy".        # Aim for 2-4 sentences, minimum 10 words.
 tags: [tag1, tag2]             # lowercase kebab-case, helps with discovery
 tools: [claude-code, cursor]   # which AI tools this skill targets
 version: 1.0.0                 # semantic versioning
 author: your-github-handle     # optional
+category: your-category        # optional: grouping category
+risk: low                      # optional: low | medium | high
+source: https://example.com    # optional: original reference URL
+date_added: 2026-01-01         # optional: when this skill was created
 ---
 ```
 
+> [!WARNING]
+> Chỉ sử dụng các key được liệt kê ở trên. Validator sẽ cảnh báo nếu gặp **unknown frontmatter key** không nằm trong danh sách `name`, `description`, `tags`, `tools`, `version`, `author`, `category`, `risk`, `source`, `date_added`.
+
 ### Description Writing Guide
 
-The `description` field is the **primary trigger mechanism** — Claude reads it to decide if a skill is relevant. Write it to match how users naturally phrase requests.
+The `description` field is the **primary trigger mechanism** — Claude reads it to decide if a skill is relevant. Write it to match how users naturally phrase requests. **Tối thiểu 10 từ** (validator sẽ cảnh báo nếu ít hơn).
 
 **Bad description:**
 ```
